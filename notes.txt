@@ -1,0 +1,22 @@
+docker run -d --name fixwise-postgres -e POSTGRES_DB=fixwise_dev -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -v fixwise_db_data:/var/lib/postgresql/data postgres:16
+
+//connecter
+docker exec -it fixwise-postgres psql -U postgres -d fixwise_dev
+
+Vérifier les bases de données :
+\l
+Quitter 
+\q
+
+# Ouvrir Services (services.msc)
+# Chercher "PostgreSQL" - le statut doit être "En cours d'exécution"
+
+
+dotnet clean
+Remove-Item -Recurse -Force bin, obj -ErrorAction SilentlyContinue
+dotnet add package Microsoft.EntityFrameworkCore
+...
+dotnet restore
+dotnet build
+dotnet run
+
