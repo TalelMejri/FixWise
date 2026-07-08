@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|c:\\users\\talel\\desktop\\fixwise\\backend\\src\\fixwise.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|solutionrelative:src\\fixwise.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|c:\\users\\talel\\desktop\\fixwise\\backend\\src\\fixwise.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|solutionrelative:src\\fixwise.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|c:\\users\\talel\\desktop\\fixwise\\backend\\src\\fixwise.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|solutionrelative:src\\fixwise.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|c:\\users\\talel\\desktop\\fixwise\\backend\\src\\fixwise.api\\fixwise.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78892FF5-3E32-4F7F-BD6A-B9065CBDCDDC}|src\\FixWise.Api\\FixWise.Api.csproj|solutionrelative:src\\fixwise.api\\fixwise.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\FixWise.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\FixWise.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T12:59:03.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FixWise.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\FixWise.Api.csproj",
+              "RelativeDocumentMoniker": "src\\FixWise.Api\\FixWise.Api.csproj",
+              "ToolTip": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\FixWise.Api.csproj",
+              "RelativeToolTip": "src\\FixWise.Api\\FixWise.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-01T12:57:45.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\FixWise.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\Program.cs",
+              "RelativeToolTip": "src\\FixWise.Api\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:57:43.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\FixWise.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\FixWise.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:48:02.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

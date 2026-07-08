@@ -137,3 +137,4 @@ C:\Users\talel\Desktop\FixWise\backend\src\FixWise.Api\obj\Debug\net10.0\refint\
 C:\Users\talel\Desktop\FixWise\backend\src\FixWise.Api\obj\Debug\net10.0\FixWise.Api.pdb
 C:\Users\talel\Desktop\FixWise\backend\src\FixWise.Api\obj\Debug\net10.0\FixWise.Api.genruntimeconfig.cache
 C:\Users\talel\Desktop\FixWise\backend\src\FixWise.Api\obj\Debug\net10.0\ref\FixWise.Api.dll
+C:\Users\talel\Desktop\FixWise\backend\src\FixWise.Api\obj\Debug\net10.0\FixWise.Api.sourcelink.json

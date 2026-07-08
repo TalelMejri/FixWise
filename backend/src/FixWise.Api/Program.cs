@@ -114,8 +114,16 @@ app.MapControllers();
 // Migration automatique de la base de données au démarrage
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    await dbContext.Database.MigrateAsync();
+    try
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        await dbContext.Database.MigrateAsync();
+    }
+    catch (Exception ex)
+    {
+        // Ne pas planter l'application si la base de données est inaccessible au démarrage.
+        app.Logger.LogError(ex, "Erreur lors de la migration de la base de données. Le serveur continuera de démarrer sans appliquer les migrations.");
+    }
 }
 
 app.Run();

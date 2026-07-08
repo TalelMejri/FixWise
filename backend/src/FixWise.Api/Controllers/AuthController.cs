@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using FixWise.Api.DTOs.Auth;
 using FixWise.Api.Services.Interfaces;
+using FixWise.Api.Models;
 
 namespace FixWise.Api.Controllers;
 
@@ -90,5 +91,14 @@ public class AuthController : ControllerBase
         {
             return NotFound(new { message = "Utilisateur non trouvé." });
         }
+
+
+    }
+
+    [HttpGet("test")]
+    public async Task<IActionResult> test()
+    {
+        return Ok("test");
+
     }
 }
