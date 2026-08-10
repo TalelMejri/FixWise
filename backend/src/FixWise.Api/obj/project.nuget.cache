@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NfbD5SGikuw=",
+  "dgSpecHash": "yBHwRbQUkyw=",
   "success": true,
   "projectFilePath": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\FixWise.Api.csproj",
   "expectedPackageFiles": [
@@ -57,7 +57,7 @@
     {
       "code": "NU1903",
       "level": "Warning",
-      "message": "Le package 'AutoMapper' 12.0.1 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-rvv3-g6hj-g44x.",
+      "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
       "projectPath": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\FixWise.Api.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\talel\\Desktop\\FixWise\\backend\\src\\FixWise.Api\\FixWise.Api.csproj",
