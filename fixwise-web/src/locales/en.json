@@ -1,0 +1,211 @@
+{
+    "login": {
+    "title": "Welcome back",
+    "description": "Sign in to your workspace.",
+    "subtitle": "Maintenance, reminders & DIY, together.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "remember": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "noAccount": "No account yet?",
+    "createOne": "Create one",
+    "demoLabel": "Demo credentials —",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "errorEmail": "Enter a valid email address.",
+    "errorPassword": "Password must be at least 8 characters."
+  },
+  "register": {
+    "title": "Create your account",
+    "description": "Free while in preview.",
+    "fullName": "Full name",
+    "namePlaceholder": "Alex Rivera",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "terms": "I accept the terms of service and privacy policy.",
+    "createAccount": "Create account",
+    "creating": "Creating account…",
+    "hasAccount": "Already registered?",
+    "signIn": "Sign in",
+    "strength": "Strength",
+    "successTitle": "Account created",
+    "successMessage": "Redirecting you to sign in…",
+    "errorName": "Enter your full name.",
+    "errorEmail": "Invalid email address.",
+    "errorPassword": "At least 8 characters.",
+    "errorConfirm": "Passwords do not match."
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "solutions": "Solutions",
+    "about": "About",
+    "login": "Log in",
+    "beginNow": "Begin now"
+  },
+  "hero": {
+    "badge": "Smart maintenance management",
+    "title": "Organize, track and",
+    "titleHighlight": "maintain",
+    "titleEnd": "with confidence.",
+    "description": "FixWise keeps the maintenance of your home, vehicles, appliances and equipment in one intelligent workspace — with AI guidance and reminders that recalculate themselves.",
+    "ctaPrimary": "Get started free",
+    "ctaSecondary": "Watch the tour",
+    "scroll": "Scroll"
+  },
+  "features": {
+    "eyebrow": "Core pillars",
+    "title": "Three tools, one place to keep",
+    "titleHighlight": "everything running",
+    "description": "FixWise brings your maintenance history, AI guidance and reminder schedule into a single workspace — no more spreadsheets, sticky notes or guesswork.",
+    "diary": {
+      "title": "Maintenance diary",
+      "description": "A full history of every intervention, for every asset you own.",
+      "items": [
+        "Costs, materials and duration per log",
+        "Before/after photos and invoices",
+        "Timeline view per asset"
+      ]
+    },
+    "ai": {
+      "title": "AI assistant",
+      "description": "Describe a problem in plain language and get a clear next step.",
+      "items": [
+        "Issue analysis with urgency level",
+        "Step-by-step DIY project plans",
+        "Safety-first professional referrals"
+      ]
+    },
+    "reminders": {
+      "title": "Smart reminders",
+      "description": "Recurring schedules that recalculate themselves automatically.",
+      "items": [
+        "Time, mileage or usage-based rules",
+        "Calendar and overdue views",
+        "One tap to log completion"
+      ]
+    },
+    "modulesLabel": "Everything else is built in",
+    "modules": [
+      "Asset manager",
+      "DIY planner",
+      "File manager",
+      "Dashboard & KPIs",
+      "Workspace roles",
+      "Notifications",
+      "Technician access",
+      "Category library"
+    ]
+  },
+  "forgetPassword": {
+    "title": "Forgot password?",
+    "description": "Enter your email and we'll send you a link to reset your password.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "sendLink": "Send reset link",
+    "sending": "Sending…",
+    "backToLogin": "Back to login",
+    "rememberPassword": "Remember your password?",
+    "successTitle": "Check your inbox",
+    "successMessage": "We've sent a password reset link to",
+    "checkSpam": "Didn't receive the email? Check your spam folder or try again.",
+    "demoInfo": "Demo email —",
+    "errorEmail": "Enter a valid email address."
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "From first login to",
+    "titleHighlight": "zero surprise repairs",
+    "step1": {
+      "title": "Add your assets",
+      "description": "Create a workspace and register your home, vehicles, appliances and tools in a few clicks — with photos, warranty dates and locations."
+    },
+    "step2": {
+      "title": "Log issues, let AI guide you",
+      "description": "Describe a problem and the assistant returns an urgency level, safe checks and — when it matters — a clear recommendation to call a professional."
+    },
+    "step3": {
+      "title": "Stay ahead with reminders",
+      "description": "Schedule by time, mileage or usage. FixWise recalculates the next due date the moment you mark something done."
+    }
+  },
+  "audience": {
+    "eyebrow": "Built for",
+    "title": "Whatever you're keeping running,",
+    "titleHighlight": "FixWise fits",
+    "items": {
+      "homeowners": {
+        "title": "Homeowners & families",
+        "description": "Cleaning schedules, appliance warranties and a shared log everyone can see."
+      },
+      "vehicleOwners": {
+        "title": "Vehicle owners",
+        "description": "Oil changes, tyre checks and mileage-based reminders that track how you drive."
+      },
+      "diyEnthusiasts": {
+        "title": "DIY enthusiasts",
+        "description": "AI-generated, step-by-step project guides with tool lists and budget estimates."
+      },
+      "smallBusinesses": {
+        "title": "Small businesses",
+        "description": "Equipment, HVAC and company vehicles across locations, with role-based access."
+      },
+      "technicians": {
+        "title": "Technicians",
+        "description": "Invited access to log interventions and upload photos on assigned assets only."
+      },
+      "viewers": {
+        "title": "Viewers",
+        "description": "Read-only dashboards and reports for anyone who just needs visibility."
+      }
+    }
+  },
+  "cta": {
+    "title": "Stop guessing when maintenance is due",
+    "description": "Set up your first workspace in under two minutes. No credit card, no install — it works right in your browser.",
+    "primary": "Get started free",
+    "secondary": "Talk to us"
+  },
+  "footer": {
+    "tagline": "The intelligent maintenance workspace for homes, vehicles, appliances, and everything in between.",
+    "newsletterPlaceholder": "you@example.com",
+    "newsletterButton": "Subscribe",
+    "newsletterConfirm": "You're on the list — thanks!",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "features": "Features",
+    "howItWorksLink": "How it works",
+    "solutionsLink": "Solutions",
+    "changelog": "Changelog",
+    "aboutLink": "About",
+    "careers": "Careers",
+    "contact": "Contact",
+    "press": "Press",
+    "helpCenter": "Help center",
+    "community": "Community",
+    "apiStatus": "API status",
+    "guides": "Guides",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "security": "Security",
+    "copyright": "All rights reserved."
+  },
+  "stats": {
+    "assets": "Assets tracked",
+    "logs": "Maintenance logs",
+    "satisfaction": "Satisfaction rate"
+  },
+  "common": {
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  }
+}

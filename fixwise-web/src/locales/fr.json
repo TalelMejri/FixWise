@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "solutions": "Solutions",
+    "about": "À propos",
+    "login": "Se connecter",
+    "beginNow": "Commencer"
+  },
+  "hero": {
+    "badge": "Gestion intelligente de la maintenance",
+    "title": "Organisez, suivez et",
+    "titleHighlight": "entretenez",
+    "titleEnd": "en toute confiance.",
+    "description": "FixWise centralise la maintenance de votre maison, véhicules, appareils et équipements dans un espace de travail intelligent — avec des conseils IA et des rappels qui se recalculent automatiquement.",
+    "ctaPrimary": "Commencer gratuitement",
+    "ctaSecondary": "Voir la démo",
+    "scroll": "Défiler"
+  },
+  "stats": {
+    "assets": "Actifs suivis",
+    "logs": "Journaux de maintenance",
+    "satisfaction": "Taux de satisfaction"
+  },
+  "features": {
+    "eyebrow": "Piliers principaux",
+    "title": "Trois outils, un seul endroit pour garder",
+    "titleHighlight": "tout en marche",
+    "description": "FixWise réunit votre historique de maintenance, les conseils IA et votre calendrier de rappels dans un seul espace de travail — plus de feuilles de calcul, de post-its ou de conjectures.",
+    "diary": {
+      "title": "Journal de maintenance",
+      "description": "Un historique complet de chaque intervention, pour chaque actif que vous possédez.",
+      "items": [
+        "Coûts, matériaux et durée par journal",
+        "Photos avant/après et factures",
+        "Vue chronologique par actif"
+      ]
+    },
+    "ai": {
+      "title": "Assistant IA",
+      "description": "Décrivez un problème en langage clair et obtenez une prochaine étape claire.",
+      "items": [
+        "Analyse du problème avec niveau d'urgence",
+        "Plans de projet DIY étape par étape",
+        "Références professionnelles axées sur la sécurité"
+      ]
+    },
+    "reminders": {
+      "title": "Rappels intelligents",
+      "description": "Des calendriers récurrents qui se recalculent automatiquement.",
+      "items": [
+        "Règles basées sur le temps, le kilométrage ou l'utilisation",
+        "Vues calendrier et en retard",
+        "Une touche pour enregistrer la réalisation"
+      ]
+    },
+    "modulesLabel": "Tout le reste est intégré",
+    "modules": [
+      "Gestionnaire d'actifs",
+      "Planificateur DIY",
+      "Gestionnaire de fichiers",
+      "Tableau de bord et KPI",
+      "Rôles dans l'espace de travail",
+      "Notifications",
+      "Accès technicien",
+      "Bibliothèque de catégories"
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Comment ça marche",
+    "title": "De la première connexion à",
+    "titleHighlight": "zéro réparation surprise",
+    "step1": {
+      "title": "Ajoutez vos actifs",
+      "description": "Créez un espace de travail et enregistrez votre maison, véhicules, appareils et outils en quelques clics — avec photos, dates de garantie et emplacements."
+    },
+    "step2": {
+      "title": "Enregistrez les problèmes, laissez l'IA vous guider",
+      "description": "Décrivez un problème et l'assistant renvoie un niveau d'urgence, des vérifications de sécurité et — quand c'est nécessaire — une recommandation claire pour appeler un professionnel."
+    },
+    "step3": {
+      "title": "Anticipez avec les rappels",
+      "description": "Planifiez par temps, kilométrage ou utilisation. FixWise recalcule la prochaine date d'échéance dès que vous marquez une tâche comme terminée."
+    }
+  },
+  "audience": {
+    "eyebrow": "Conçu pour",
+    "title": "Quoi que vous fassiez fonctionner,",
+    "titleHighlight": "FixWise s'adapte",
+    "items": {
+      "homeowners": {
+        "title": "Propriétaires et familles",
+        "description": "Calendriers de nettoyage, garanties d'appareils et un journal partagé visible par tous."
+      },
+      "vehicleOwners": {
+        "title": "Propriétaires de véhicules",
+        "description": "Vidanges, contrôles des pneus et rappels basés sur le kilométrage qui suivent votre conduite."
+      },
+      "diyEnthusiasts": {
+        "title": "Passionnés de DIY",
+        "description": "Guides de projets étape par étape générés par IA avec listes d'outils et estimations budgétaires."
+      },
+      "smallBusinesses": {
+        "title": "Petites entreprises",
+        "description": "Équipement, CVC et véhicules de société sur plusieurs sites, avec accès basé sur les rôles."
+      },
+      "technicians": {
+        "title": "Techniciens",
+        "description": "Accès invité pour enregistrer les interventions et télécharger des photos uniquement sur les actifs assignés."
+      },
+      "viewers": {
+        "title": "Visiteurs",
+        "description": "Tableaux de bord et rapports en lecture seule pour ceux qui ont juste besoin de visibilité."
+      }
+    }
+  },
+  "cta": {
+    "title": "Arrêtez de deviner quand la maintenance est due",
+    "description": "Configurez votre premier espace de travail en moins de deux minutes. Pas de carte de crédit, pas d'installation — ça fonctionne directement dans votre navigateur.",
+    "primary": "Commencer gratuitement",
+    "secondary": "Contactez-nous"
+  },
+  "footer": {
+    "tagline": "L'espace de travail intelligent pour la maintenance des maisons, véhicules, appareils et tout ce qui se trouve entre les deux.",
+    "newsletterPlaceholder": "vous@exemple.com",
+    "newsletterButton": "S'abonner",
+    "newsletterConfirm": "Vous êtes sur la liste — merci !",
+    "product": "Produit",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "legal": "Juridique",
+    "features": "Fonctionnalités",
+    "howItWorksLink": "Comment ça marche",
+    "solutionsLink": "Solutions",
+    "changelog": "Journal des modifications",
+    "aboutLink": "À propos",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "press": "Presse",
+    "helpCenter": "Centre d'aide",
+    "community": "Communauté",
+    "apiStatus": "Statut de l'API",
+    "guides": "Guides",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "security": "Sécurité",
+    "copyright": "Tous droits réservés."
+  },
+  "common": {
+    "language": "Langue",
+     "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "login": {
+    "title": "Bon retour",
+    "description": "Connectez-vous à votre espace de travail.",
+    "subtitle": "Maintenance, rappels & DIY, ensemble.",
+    "email": "Email",
+    "emailPlaceholder": "vous@exemple.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "remember": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion…",
+    "noAccount": "Pas encore de compte ?",
+    "createOne": "Créer un compte",
+    "demoLabel": "Identifiants de démonstration —",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "errorEmail": "Entrez une adresse email valide.",
+    "errorPassword": "Le mot de passe doit contenir au moins 8 caractères."
+  },
+  "register": {
+    "title": "Créez votre compte",
+    "description": "Gratuit pendant la prévisualisation.",
+    "fullName": "Nom complet",
+    "namePlaceholder": "Alex Rivera",
+    "email": "Email",
+    "emailPlaceholder": "vous@exemple.com",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité.",
+    "createAccount": "Créer un compte",
+    "creating": "Création du compte…",
+    "hasAccount": "Déjà inscrit ?",
+    "signIn": "Se connecter",
+    "strength": "Force",
+    "successTitle": "Compte créé",
+    "successMessage": "Redirection vers la connexion…",
+    "errorName": "Entrez votre nom complet.",
+    "errorEmail": "Adresse email invalide.",
+    "errorPassword": "Au moins 8 caractères.",
+    "errorConfirm": "Les mots de passe ne correspondent pas."
+  },
+    "forgetPassword": {
+    "title": "Mot de passe oublié ?",
+    "description": "Entrez votre email et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "email": "Email",
+    "emailPlaceholder": "vous@exemple.com",
+    "sendLink": "Envoyer le lien",
+    "sending": "Envoi…",
+    "backToLogin": "Retour à la connexion",
+    "rememberPassword": "Vous vous souvenez de votre mot de passe ?",
+    "successTitle": "Vérifiez votre boîte de réception",
+    "successMessage": "Nous avons envoyé un lien de réinitialisation à",
+    "checkSpam": "Vous n'avez pas reçu l'email ? Vérifiez vos spams ou réessayez.",
+    "demoInfo": "Email de démonstration —",
+    "errorEmail": "Entrez une adresse email valide."
+  }
+}

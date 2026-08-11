@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FixWise.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a48474412a8587d593777eec379e06b4d8e4c08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bccf58ad8228040ff21139d9ef93812f43e42499")]
 [assembly: System.Reflection.AssemblyProductAttribute("FixWise.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FixWise.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

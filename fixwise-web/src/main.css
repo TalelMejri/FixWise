@@ -1,1 +1,247 @@
+/* src/main.css */
 @import "tailwindcss";
+
+/* ========================================
+   THEME VARIABLES
+   ======================================== */
+@layer base {
+  :root {
+    /* Light theme (default) */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-card: #ffffff;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a4a6a;
+    --text-muted: #8a8aaa;
+    --border-color: #e5e7eb;
+    --shadow-color: rgba(0, 0, 0, 0.05);
+
+    /* Accent colors */
+    --accent-primary: #e87a00;
+    --accent-hover: #f58a1a;
+    --accent-gradient: linear-gradient(135deg, #e87a00, #f58a1a, #ff9a2a);
+  }
+
+  .dark {
+    /* Dark theme */
+    --bg-primary: #0a0e17;
+    --bg-secondary: #111827;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --text-primary: #ffffff;
+    --text-secondary: #c8c8d8;
+    --text-muted: #8a8aaa;
+    --border-color: rgba(255, 255, 255, 0.06);
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .space-x-2>*+* {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+[dir="rtl"] .pl-5 {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+[dir="rtl"] .left-0 {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .right-0 {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+[dir="rtl"] .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-sans bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-300 min-h-screen;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[var(--bg-secondary)];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[var(--text-muted)] rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-[var(--accent-primary)];
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-[var(--accent-primary)] text-white;
+  }
+}
+
+/* ========================================
+   CUSTOM COMPONENTS
+   ======================================== */
+@layer components {
+
+  /* Glass effect */
+  .glass {
+    @apply backdrop-blur-md bg-white/5 border border-white/10;
+  }
+
+  .dark .glass {
+    @apply bg-white/3 border-white/6;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#e87a00] via-[#f58a1a] to-[#ff9a2a] bg-clip-text text-transparent;
+  }
+
+  /* Gradient button */
+  .btn-gradient {
+    @apply bg-gradient-to-r from-[#e87a00] to-[#f58a1a] text-white font-semibold transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#e87a00]/30;
+  }
+
+  /* Card */
+  .card-glass {
+    @apply rounded-2xl border border-[var(--border-color)] bg-[var(--bg-card)] transition-all duration-300 hover:-translate-y-1.5 hover:border-[var(--accent-primary)]/30 hover:shadow-xl;
+  }
+
+  /* Badge */
+  .badge-glass {
+    @apply inline-flex items-center gap-2 rounded-full border border-[var(--accent-primary)]/25 bg-white/5 px-3 py-1.5 backdrop-blur-md;
+  }
+
+  /* Grid pattern */
+  .grid-pattern {
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(232, 122, 0, 0.03) 39px, rgba(232, 122, 0, 0.03) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(232, 122, 0, 0.03) 39px, rgba(232, 122, 0, 0.03) 40px);
+  }
+
+  .dark .grid-pattern {
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(232, 122, 0, 0.05) 39px, rgba(232, 122, 0, 0.05) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(232, 122, 0, 0.05) 39px, rgba(232, 122, 0, 0.05) 40px);
+  }
+}
+
+/* ========================================
+   UTILITIES
+   ======================================== */
+@layer utilities {
+  .bg-theme {
+    background-color: var(--bg-primary);
+  }
+
+  .grid-pattern {
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(232, 122, 0, 0.03) 39px, rgba(232, 122, 0, 0.03) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(232, 122, 0, 0.03) 39px, rgba(232, 122, 0, 0.03) 40px);
+  }
+
+  .dark .grid-pattern {
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(232, 122, 0, 0.05) 39px, rgba(232, 122, 0, 0.05) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(232, 122, 0, 0.05) 39px, rgba(232, 122, 0, 0.05) 40px);
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#e87a00] via-[#f58a1a] to-[#ff9a2a] bg-clip-text text-transparent;
+  }
+
+  .text-theme {
+    color: var(--text-primary);
+  }
+
+  .grid-pattern-diagonal {
+    background-image:
+      repeating-linear-gradient(0deg,
+        transparent,
+        transparent 39px,
+        rgba(232, 122, 0, 0.03) 39px,
+        rgba(232, 122, 0, 0.03) 40px),
+      repeating-linear-gradient(90deg,
+        transparent,
+        transparent 39px,
+        rgba(232, 122, 0, 0.03) 39px,
+        rgba(232, 122, 0, 0.03) 40px),
+      repeating-linear-gradient(45deg,
+        transparent,
+        transparent 39px,
+        rgba(232, 122, 0, 0.015) 39px,
+        rgba(232, 122, 0, 0.015) 40px);
+  }
+
+  .dark .grid-pattern-diagonal {
+    background-image:
+      repeating-linear-gradient(0deg,
+        transparent,
+        transparent 39px,
+        rgba(232, 122, 0, 0.05) 39px,
+        rgba(232, 122, 0, 0.05) 40px),
+      repeating-linear-gradient(90deg,
+        transparent,
+        transparent 39px,
+        rgba(232, 122, 0, 0.05) 39px,
+        rgba(232, 122, 0, 0.05) 40px),
+      repeating-linear-gradient(45deg,
+        transparent,
+        transparent 39px,
+        rgba(232, 122, 0, 0.025) 39px,
+        rgba(232, 122, 0, 0.025) 40px);
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#e87a00] via-[#f58a1a] to-[#ff9a2a] bg-clip-text text-transparent;
+  }
+
+  /* Number glow */
+  .shadow-glow {
+    text-shadow: 0 0 20px rgba(232, 122, 0, 0.3);
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#e87a00] via-[#f58a1a] to-[#ff9a2a] bg-clip-text text-transparent;
+  }
+
+  .border-theme {
+    border-color: var(--border-color);
+  }
+}
