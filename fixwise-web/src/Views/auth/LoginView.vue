@@ -128,12 +128,10 @@ const submit = (e: Event) => {
 
   setTimeout(() => {
     loading.value = false
-    // In a real app, you would authenticate here
-    router.push('/dashboard')
+    router.push('/workspaces')
   }, 700)
 }
 
-// Redirect if already logged in (mock)
 onMounted(() => {
   // Check if user is already authenticated
   // const isAuthenticated = localStorage.getItem('auth_token')

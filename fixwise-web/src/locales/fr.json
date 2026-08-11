@@ -207,5 +207,30 @@
     "checkSpam": "Vous n'avez pas reçu l'email ? Vérifiez vos spams ou réessayez.",
     "demoInfo": "Email de démonstration —",
     "errorEmail": "Entrez une adresse email valide."
+  },
+  "dashboard": {
+    "title": "Bonjour {name}, voici votre espace de travail",
+    "description": "{workspace} · {type}",
+    "manageAssets": "Gérer les actifs",
+    "totalAssets": "Total des actifs",
+    "activeAssets": "{count} actifs",
+    "maintenanceLogs": "Journaux de maintenance",
+    "vsLastMonth": "+{count} vs le mois dernier",
+    "upcomingReminders": "Rappels à venir",
+    "overdueCount": "{count} en retard",
+    "nothingOverdue": "Rien en retard",
+    "maintenanceCost": "Coût de maintenance",
+    "allTimeRecorded": "Enregistré depuis le début",
+    "costByCategory": "Coût par catégorie",
+    "logsByType": "Journaux par type",
+    "costTrend": "Tendance des coûts",
+    "recentActivity": "Activité récente",
+    "aiRecommendations": "Recommandations IA",
+    "aiDisclaimer": "Généré par IA, à titre informatif uniquement",
+    "action": "Action",
+    "consultProfessional": "Consultez un professionnel qualifié avant d'essayer vous-même.",
+    "convertToLog": "Convertir en journal de maintenance",
+    "noLogs": "Aucun journal de maintenance",
+    "startTracking": "Commencez à suivre vos activités de maintenance"
   }
 }

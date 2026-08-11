@@ -26,9 +26,21 @@ const router = createRouter({
     },
     {
       path: '/forget-password',
-      name: 'forgetPassword',
+      name: 'ForgetPassword',
       component: () => import('@/Views/auth/ForgetPasswordView.vue'),
       meta: { title: 'Forgot Password - FixWise', guest: true }
+    },
+    {
+      path: '/workspaces',
+      name: 'WorkspaceSelection',
+      component: () => import('@/Views/WorkspaceSelectionView.vue'),
+      meta: { title: 'Select Workspace - FixWise', requiresAuth: true }
+    },
+    {
+      path: '/dashboard',
+      name: 'Dashboard',
+      component: () => import('@/Views/Dashboard/DashboardView.vue'),
+      meta: { title: 'Dashboard - FixWise', requiresAuth: true }
     },
     {
       path: '/:pathMatch(.*)*',
@@ -36,5 +48,6 @@ const router = createRouter({
     }
   ]
 })
+
 
 export default router
