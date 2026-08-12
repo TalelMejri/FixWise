@@ -43,6 +43,48 @@ const router = createRouter({
       meta: { title: 'Dashboard - FixWise', requiresAuth: true }
     },
     {
+      path: '/assets',
+      name: 'Assets',
+      component: () => import('@/Views/AssetsView.vue'),
+      meta: { title: 'Assets - FixWise' }
+    },
+    {
+      path: '/assets/:id',
+      name: 'AssetsDetails',
+      component: () => import('@/components/assets/AssetDetailView.vue'),
+      meta: { title: 'Assets Details - FixWise' }
+    },
+    {
+      path: '/maintenance',
+      name: 'Maintenance',
+      component: () => import('@/Views/MaintenanceView.vue'),
+      meta: { title: 'Maintenance - FixWise' }
+    },
+    {
+      path: '/reminders',
+      name: 'Reminders',
+      component: () => import('@/Views/RemindersView.vue'),
+      meta: { title: 'Reminders - FixWise' }
+    },
+    {
+      path: '/diy',
+      name: 'DIY Projects',
+      component: () => import('@/Views/DiyProjectsView.vue'),
+      meta: { title: 'DIY Projects - FixWise' }
+    },
+    {
+      path: '/ai',
+      name: 'AI Assistant',
+      component: () => import('@/Views/AIAssistantView.vue'),
+      meta: { title: 'AI Assistant - FixWise' }
+    },
+    {
+      path: '/settings',
+      name: 'Settings',
+      component: () => import('@/Views/SettingsView.vue'),
+      meta: { title: 'Settings - FixWise' }
+    },
+    {
       path: '/:pathMatch(.*)*',
       redirect: '/'
     }

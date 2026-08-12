@@ -871,7 +871,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* ... (all existing styles remain the same, plus the following additions) ... */
 
 /* Card Actions */
 .card-actions {
